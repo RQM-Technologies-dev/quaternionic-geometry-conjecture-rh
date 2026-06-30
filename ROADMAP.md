@@ -12,6 +12,8 @@ obligations visible.
   assumptions.
 - Track how noncommutativity affects multiplication order and functional
   calculus.
+- Record active modeling defaults in
+  [docs/08_definition_ledger.md](docs/08_definition_ledger.md).
 
 ## 2. Formalize The Critical Slice
 
@@ -28,6 +30,8 @@ obligations visible.
 - Determine whether the functional should be built from a Gamma lift, a
   completed-zeta normalization, a Weil-type kernel, or a compatible combination.
 - Define the coherence defect for off-slice candidates.
+- Compare the candidate functional families in
+  [docs/07_candidate_coherence_functionals.md](docs/07_candidate_coherence_functionals.md).
 
 ## 4. Relate The Model To The Zeta Functional Equation
 
@@ -55,4 +59,3 @@ obligations visible.
 - Show that off-slice coherence defects have the required sign or coercive
   structure.
 - Derive a critical-line consequence from the preceding analytic obligations.
-

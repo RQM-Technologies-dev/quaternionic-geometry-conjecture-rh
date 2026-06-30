@@ -42,6 +42,10 @@ classical zeta symmetry
 - [ROADMAP.md](ROADMAP.md) - directional research sequence.
 - [docs/01_geometric_motivation.md](docs/01_geometric_motivation.md) - core
   intuition before notation.
+- [docs/08_definition_ledger.md](docs/08_definition_ledger.md) - canonical
+  modeling defaults before diagnostics.
+- [docs/07_candidate_coherence_functionals.md](docs/07_candidate_coherence_functionals.md) -
+  candidate versions of `C(q)` ranked from safest to boldest.
 - [docs/06_theorem_obligations.md](docs/06_theorem_obligations.md) - analytic
   obligations that would need to be met.
 
@@ -51,4 +55,3 @@ classical zeta symmetry
 python scripts/generate_critical_slice_diagram.py
 python scripts/smoke.py
 ```
-

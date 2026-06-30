@@ -24,6 +24,9 @@ functional should:
 - identify stationary states on `Re(q)=1/2`,
 - assign a detectable coherence defect to off-slice candidates.
 
+Candidate versions of `C(q)` are tracked in
+[Candidate Coherence Functionals](07_candidate_coherence_functionals.md).
+
 ## Stationary States
 
 A stationary spectral-coherence state is a point where the first variation of
@@ -40,4 +43,3 @@ between a geometric picture and analytic number theory.
 
 The required bridge should state how positivity, negativity, or coercive
 behavior in the coherence model corresponds to the classical zero condition.
-
