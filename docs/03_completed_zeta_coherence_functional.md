@@ -23,6 +23,31 @@ Xi(s) = Xi(1-s).
 This symmetry is the established analytic input. The repository studies how to
 turn the mirror midpoint into a non-circular coherence or positivity condition.
 
+## Gamma/pi Completion Envelope
+
+Write
+
+```text
+A(s) = pi^(-s/2) Gamma(s/2).
+```
+
+The reflected envelope is
+
+```text
+A(1-s) = pi^(-(1-s)/2) Gamma((1-s)/2).
+```
+
+In this bookkeeping:
+
+- `zeta(s)` is the prime/discrete/oscillatory side.
+- `A(s)` is the continuum/curvature/completion side.
+- `Xi(s)` is the mirror-balanced completed object where these pieces are
+  normalized together, along with the polynomial factor `(1/2) s(s-1)`.
+
+Gamma/pi completion does not generate zeta zeros, and it does not prove RH.
+Its role is to put the zeta-side cancellation inside the completed mirror
+geometry where `Xi(s)=Xi(1-s)` is a classical identity.
+
 ## Classical Core
 
 The immediate target is a real-valued scale-stability defect
@@ -31,16 +56,26 @@ The immediate target is a real-valued scale-stability defect
 S_Xi(s).
 ```
 
-This is not yet a finished formula. It is the planned classical object that
-must be built from:
+Candidate v0 below is the first precise proposed definition. It remains a
+definition target, not a theorem. It is built from:
 
 - the completed zeta function `Xi(s)`,
 - the reflection `s -> 1-s`,
+- the completion envelopes `A(s)` and `A(1-s)`,
 - an admissible log-scale or test-function structure,
 - a norm, energy, or stress interpretation stated before diagnostics.
 
 `S_Xi(s)` must not use known zero locations, tabulated ordinates, or tuning
 against numerical zero data.
+
+A viable schematic target is:
+
+```text
+S_Xi(s) = completed_mirror_defect(Xi, A, A(1-s), admissible test data).
+```
+
+This means `S_Xi(s)` should measure failure of completed mirror stability, not
+only mismatch of local prime amplitudes.
 
 The clean RH-relevant target is the implication pair
 
@@ -55,6 +90,114 @@ domain, then zeros of `Xi` would have to lie on `Re(s)=1/2`.
 
 This is the classical core. Quaternionic notation should not be used to bypass
 these two obligations.
+
+## Candidate Definition v0: Completed Mirror-Angle Defect
+
+Write
+
+```text
+s = 1/2 + alpha + i t.
+```
+
+Define the same-height mirror point
+
+```text
+s# = 1 - conj_C(s) = 1/2 - alpha + i t.
+```
+
+This is different from the functional-equation reflection `1-s`; it reflects
+the real coordinate across `1/2` while preserving the height `t`.
+
+Candidate v0 assumes a completed log-scale kernel representation
+
+```text
+Xi(1/2 + z) = integral_R Phi_Xi(y) exp(z y) dy.
+```
+
+The kernel `Phi_Xi` is part of the Gamma/pi-completed object. For theorem use,
+the representation must be fixed on a stated domain and must supply a positive,
+finite, non-degenerate normalized scale measure
+
+```text
+dmu_Xi(y) = Phi_Xi(y) dy / integral_R Phi_Xi(y) dy.
+```
+
+The assumptions are:
+
+- positivity: `dmu_Xi` is a positive measure on the chosen real log-scale;
+- finiteness: the normalizing integral is finite and nonzero;
+- non-degeneracy: `mu_Xi` is not concentrated at a single log-scale point;
+- domain: the exponential moments below exist for the intended `alpha` range.
+
+Define mirror scale profiles
+
+```text
+f_s(y)  = exp((s - 1/2) y),
+f_s#(y) = exp((s# - 1/2) y).
+```
+
+With the `L^2(mu_Xi)` inner product, define
+
+```text
+S_Xi(s)
+=
+1
+-
+|<f_s, f_s#>_mu|^2
+/
+(||f_s||_mu^2 ||f_s#||_mu^2).
+```
+
+Equivalently, set
+
+```text
+M(alpha) = integral_R exp(2 alpha y) dmu_Xi(y).
+```
+
+Then Candidate v0 gives
+
+```text
+S_Xi(s) = 1 - 1 / (M(alpha) M(-alpha)).
+```
+
+This form is non-circular: it uses the completed `Xi` kernel and its Gamma/pi
+envelope, not known zero ordinates. Under the positivity, finiteness, and
+non-degeneracy assumptions, Cauchy-Schwarz is expected to give
+
+```text
+S_Xi(s) >= 0,
+S_Xi(s) = 0  =>  alpha = 0.
+```
+
+That is Lemma A, the off-axis instability statement. It does not prove RH by
+itself. The hard theorem-level bridge remains Lemma B:
+
+```text
+Xi(s) = 0  =>  S_Xi(s)=0.
+```
+
+Only Lemma A plus Lemma B would force nontrivial zeros onto `Re(s)=1/2`.
+
+## Hyper-Spherical Interpretation
+
+The supporting hyperspherical picture uses the critical-slice form
+
+```text
+q = 1/2 + tau u,
+```
+
+where `u^2=-1`. This geometry visualizes completed mirror-stable shells after
+the classical object has been defined. It can help organize the shell language
+for a later quaternionic lift, but it does not generate zeta zeros and it does
+not replace the classical proof burden.
+
+The proof burden remains:
+
+```text
+define S_Xi(s),
+prove S_Xi(s)=0 => Re(s)=1/2,
+prove Xi(s)=0 => S_Xi(s)=0.
+```
 
 ## Quaternionic Lift Target
 
@@ -142,9 +285,9 @@ behavior.
 Before `S_Xi(s)` can carry theorem weight, the program must specify:
 
 - its domain in the critical strip or completed-zeta domain;
-- the admissible log-scale or test-function class;
-- the norm, energy, or stress interpretation;
-- the off-axis coercivity statement `S_Xi(s)=0 => Re(s)=1/2`;
+- the completed kernel `Phi_Xi` and normalized measure `mu_Xi`;
+- positivity, finiteness, non-degeneracy, and moment assumptions;
+- the off-axis coercivity proof for Candidate v0;
 - the zero-to-stability statement `Xi(s)=0 => S_Xi(s)=0`.
 
 Before `C_QF_RH(q)` can carry theorem weight as a lift, the program must also

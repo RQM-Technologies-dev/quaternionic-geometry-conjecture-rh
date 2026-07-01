@@ -117,6 +117,22 @@ This is established complex zeta theory. Any quaternionic construction must say
 whether it is using a classical slice value, a lifted value, or a diagnostic
 residual.
 
+Define the Gamma/pi completion envelope
+
+```text
+A(s) = pi^(-s/2) Gamma(s/2).
+```
+
+Its reflected partner is
+
+```text
+A(1-s) = pi^(-(1-s)/2) Gamma((1-s)/2).
+```
+
+The completed zeta function can be read as the polynomial factor times
+`A(s) zeta(s)`. The envelope `A(s)` is part of the completed mirror geometry;
+it does not generate zeros by itself.
+
 ## Classical Scale-Stability Target
 
 The immediate definition target is a real-valued scale-stability defect
@@ -125,9 +141,51 @@ The immediate definition target is a real-valued scale-stability defect
 S_Xi(s).
 ```
 
-It is intended to be built from completed zeta, the reflection `s -> 1-s`, and
-an admissible log-scale or test-function structure. It must be defined without
-using known zero locations.
+Candidate v0 uses the completed mirror-angle defect. Write
+
+```text
+s = 1/2 + alpha + i t,
+alpha = Re(s) - 1/2.
+```
+
+The same-height mirror point is
+
+```text
+s# = 1 - conj_C(s) = 1/2 - alpha + i t.
+```
+
+The candidate assumes a completed log-scale representation
+
+```text
+Xi(1/2 + z) = integral_R Phi_Xi(y) exp(z y) dy.
+```
+
+Normalize its completed scale measure by
+
+```text
+dmu_Xi(y) = Phi_Xi(y) dy / integral_R Phi_Xi(y) dy.
+```
+
+For theorem-level use, `Phi_Xi` and `mu_Xi` must be defined on a stated domain
+with positivity, finiteness, non-degeneracy, and enough exponential moments.
+
+Define
+
+```text
+M(alpha) = integral_R exp(2 alpha y) dmu_Xi(y).
+```
+
+Candidate v0 is
+
+```text
+S_Xi(s) = 1 - 1 / (M(alpha) M(-alpha)).
+```
+
+Equivalently, it is the normalized `L^2(mu_Xi)` mirror-angle defect between
+`f_s(y)=exp((s-1/2)y)` and `f_s#(y)=exp((s#-1/2)y)`.
+
+This is a candidate definition, not a theorem. It is built from completed-zeta
+data and the Gamma/pi-completed kernel, not from known zero locations.
 
 The target theorem obligations are:
 
@@ -137,8 +195,8 @@ Xi(s) = 0    =>  S_Xi(s)=0.
 ```
 
 If both implications are proved for all nontrivial zeros in the intended
-domain, they would imply the Riemann Hypothesis. At present `S_Xi(s)` is a
-definition target, not a completed formula.
+domain, they would imply the Riemann Hypothesis. At present Candidate v0 is a
+definition target whose zero-to-stability bridge remains open.
 
 ## Quaternionic Completed Target
 

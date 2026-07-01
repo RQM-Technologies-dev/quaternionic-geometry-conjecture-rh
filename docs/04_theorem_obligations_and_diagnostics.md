@@ -9,28 +9,37 @@ The program needs the following obligations before any RH-relevant claim can
 carry proof weight.
 
 1. Define `S_Xi(s)` precisely as a real-valued completed-zeta scale-stability
-   defect.
-2. State its construction domain and admissible log-scale or test-function
-   class.
-3. Prove off-axis coercivity:
+   defect. Candidate v0 is the completed mirror-angle defect.
+2. State its construction domain, completed kernel `Phi_Xi`, normalized
+   measure `mu_Xi`, and admissible moment range.
+3. Make `S_Xi(s)` account for the full completed envelope `A(s) zeta(s)`, not
+   only local prime amplitudes.
+4. Prove Lemma A, off-axis coercivity:
 
    ```text
    S_Xi(s) = 0  =>  Re(s)=1/2.
    ```
 
-4. Prove the zero-to-stability bridge:
+   For Candidate v0, this is expected to follow from Cauchy-Schwarz plus
+   positivity, finiteness, and non-degeneracy of `mu_Xi`.
+
+5. Prove Lemma B, the zero-to-stability bridge:
 
    ```text
    Xi(s) = 0  =>  S_Xi(s)=0.
    ```
 
-5. Only after the classical core is defined, construct the optional
+   This is the hard RH-level theorem target.
+
+6. Combine Lemma A and Lemma B to conclude that all nontrivial zeros in the
+   intended domain lie on `Re(s)=1/2`.
+7. Only after the classical core is defined, construct the optional
    quaternionic lift `Xi_H(q)` and `C_QF_RH(q)`.
-6. For the lift, define `Gamma_H(q)`, `Z_H(q)`, branch choices,
+8. For the lift, define `Gamma_H(q)`, `Z_H(q)`, branch choices,
    multiplication order, norm, and slice compatibility.
-7. State any stationarity, positivity, or coercivity condition before using
+9. State any stationarity, positivity, or coercivity condition before using
    zero data.
-8. Establish off-axis control strong enough to rule out scale-stable
+10. Establish off-axis control strong enough to rule out scale-stable
    cancellation away from `Re(s)=1/2`.
 
 ## Diagnostic Rules
