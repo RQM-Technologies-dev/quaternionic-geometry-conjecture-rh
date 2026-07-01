@@ -14,7 +14,18 @@ carry proof weight.
    measure `mu_Xi`, and admissible moment range.
 3. Make `S_Xi(s)` account for the full completed envelope `A(s) zeta(s)`, not
    only local prime amplitudes.
-4. Prove Lemma A, off-axis coercivity:
+4. Prove Lemma A, completion transport:
+
+   ```text
+   Gamma/pi completion -> Phi_Xi -> mu_Xi.
+   ```
+
+   This must establish the positivity, finiteness, non-degeneracy, and moment
+   assumptions needed by Candidate v0. Quaternionic Gamma/factorial geometry
+   may interpret this transport after the classical completed kernel is fixed,
+   but it must not generate zeros or define the measure from zero data.
+
+5. Prove Lemma B, off-axis coercivity:
 
    ```text
    S_Xi(s) = 0  =>  Re(s)=1/2.
@@ -23,7 +34,7 @@ carry proof weight.
    For Candidate v0, this is expected to follow from Cauchy-Schwarz plus
    positivity, finiteness, and non-degeneracy of `mu_Xi`.
 
-5. Prove Lemma B, the zero-to-stability bridge:
+6. Prove Lemma C, the zero-to-stability bridge:
 
    ```text
    Xi(s) = 0  =>  S_Xi(s)=0.
@@ -31,15 +42,15 @@ carry proof weight.
 
    This is the hard RH-level theorem target.
 
-6. Combine Lemma A and Lemma B to conclude that all nontrivial zeros in the
-   intended domain lie on `Re(s)=1/2`.
-7. Only after the classical core is defined, construct the optional
+7. Combine Lemma A, Lemma B, and Lemma C to conclude that all nontrivial zeros
+   in the intended domain lie on `Re(s)=1/2`.
+8. Only after the classical core is defined, construct the optional
    quaternionic lift `Xi_H(q)` and `C_QF_RH(q)`.
-8. For the lift, define `Gamma_H(q)`, `Z_H(q)`, branch choices,
+9. For the lift, define `Gamma_H(q)`, `Z_H(q)`, branch choices,
    multiplication order, norm, and slice compatibility.
-9. State any stationarity, positivity, or coercivity condition before using
+10. State any stationarity, positivity, or coercivity condition before using
    zero data.
-10. Establish off-axis control strong enough to rule out scale-stable
+11. Establish off-axis control strong enough to rule out scale-stable
    cancellation away from `Re(s)=1/2`.
 
 ## Diagnostic Rules

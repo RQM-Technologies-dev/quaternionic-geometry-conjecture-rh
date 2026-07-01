@@ -169,14 +169,60 @@ S_Xi(s) >= 0,
 S_Xi(s) = 0  =>  alpha = 0.
 ```
 
-That is Lemma A, the off-axis instability statement. It does not prove RH by
-itself. The hard theorem-level bridge remains Lemma B:
+That is Lemma B, the off-axis instability statement. It does not prove RH by
+itself. The hard theorem-level bridge remains Lemma C:
 
 ```text
 Xi(s) = 0  =>  S_Xi(s)=0.
 ```
 
-Only Lemma A plus Lemma B would force nontrivial zeros onto `Re(s)=1/2`.
+Only Lemma B plus Lemma C would force nontrivial zeros onto `Re(s)=1/2`,
+after the completed kernel assumptions are supplied.
+
+## Bridge Lemma Program
+
+The Quaternionic Factorial/Gamma intuition should enter as a transport
+principle for the completed envelope, not as a zero generator. The proof route
+is organized as three lemmas.
+
+Lemma A: completion transport.
+
+```text
+Gamma/pi completion, and its slice-compatible Gamma/factorial interpretation,
+supplies the completed scale kernel Phi_Xi and normalized measure mu_Xi.
+```
+
+This lemma must prove, using classical completed-zeta or theta-kernel
+analysis, that the measure used by Candidate v0 is positive, finite,
+non-degenerate, and has the required exponential moments. Quaternionic or
+factorial language may interpret the completion geometry after this classical
+kernel is fixed, but it must not define the kernel from zero data.
+
+Lemma B: mirror-axis uniqueness.
+
+```text
+S_Xi(s)=0  =>  Re(s)=1/2.
+```
+
+For Candidate v0, this is the Cauchy-Schwarz equality-case statement once
+Lemma A supplies the measure assumptions.
+
+Lemma C: zero-to-stability bridge.
+
+```text
+Xi(s)=0  =>  S_Xi(s)=0.
+```
+
+This is the RH-hard step. It must show that completed zeta cancellation forces
+the completed mirror-angle stability measured by `S_Xi`, without using known
+zero ordinates or tuning the measure to the zero list.
+
+The intended conclusion is:
+
+```text
+Lemma A + Lemma B + Lemma C
+  => all nontrivial zeros in the intended domain satisfy Re(s)=1/2.
+```
 
 ## Hyper-Spherical Interpretation
 
@@ -195,6 +241,7 @@ The proof burden remains:
 
 ```text
 define S_Xi(s),
+prove completion transport for mu_Xi,
 prove S_Xi(s)=0 => Re(s)=1/2,
 prove Xi(s)=0 => S_Xi(s)=0.
 ```
@@ -231,6 +278,7 @@ The desired theorem-level shape is:
 
 ```text
 classical scale-stability defect S_Xi
+  + completion transport
   + off-axis coercivity
   + zero-to-stability bridge
   -> zeros of Xi lie on Re(s)=1/2.
@@ -287,8 +335,9 @@ Before `S_Xi(s)` can carry theorem weight, the program must specify:
 - its domain in the critical strip or completed-zeta domain;
 - the completed kernel `Phi_Xi` and normalized measure `mu_Xi`;
 - positivity, finiteness, non-degeneracy, and moment assumptions;
-- the off-axis coercivity proof for Candidate v0;
-- the zero-to-stability statement `Xi(s)=0 => S_Xi(s)=0`.
+- Lemma A, the completion-transport proof for `mu_Xi`;
+- Lemma B, the off-axis coercivity proof for Candidate v0;
+- Lemma C, the zero-to-stability statement `Xi(s)=0 => S_Xi(s)=0`.
 
 Before `C_QF_RH(q)` can carry theorem weight as a lift, the program must also
 specify:

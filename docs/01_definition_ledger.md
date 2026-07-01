@@ -198,6 +198,18 @@ If both implications are proved for all nontrivial zeros in the intended
 domain, they would imply the Riemann Hypothesis. At present Candidate v0 is a
 definition target whose zero-to-stability bridge remains open.
 
+The bridge-lemma naming is:
+
+- Lemma A: completion transport supplies the positive, finite,
+  non-degenerate completed scale measure `mu_Xi` from the Gamma/pi-completed
+  kernel `Phi_Xi`;
+- Lemma B: Candidate v0 has `S_Xi(s)=0 => Re(s)=1/2`;
+- Lemma C: zeros satisfy `Xi(s)=0 => S_Xi(s)=0`.
+
+Lemma C is the hard RH-level bridge. Lemma A may be interpreted
+quaternionically through the Gamma/factorial completion layer only after the
+classical completed kernel has been fixed.
+
 ## Quaternionic Completed Target
 
 The completed quaternionic zeta target is

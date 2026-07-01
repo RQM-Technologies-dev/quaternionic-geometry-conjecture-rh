@@ -29,6 +29,9 @@ cancellation axis.
   as the canonical target document.
 - Make `S_Xi(s)` the immediate milestone: a real-valued completed-zeta
   scale-stability defect defined before any quaternionic lift.
+- Organize the proof target as the bridge lemma program: completion transport
+  for `mu_Xi`, mirror-axis uniqueness for `S_Xi`, then the hard
+  zero-to-stability bridge.
 - Treat `Xi_H(q)` and `C_QF_RH(q)=||Xi_H(q)||^2` as the quaternionic extension
   of the classical core.
 - Treat slice checks, Gamma-lift conjugacy, and Weil/explicit-formula energy as
