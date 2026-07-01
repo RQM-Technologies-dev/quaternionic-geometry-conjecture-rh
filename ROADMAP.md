@@ -53,5 +53,14 @@ functional where `Re(s)=1/2` is the only scale-stable cancellation axis.
 - Use [docs/07_weil_explicit_formula_bridge.md](docs/07_weil_explicit_formula_bridge.md)
   to move Lemma C toward Weil explicit-formula positivity rather than treating
   it as a consequence of completed symmetry alone.
+- Use [docs/08_weil_formula_transcription.md](docs/08_weil_formula_transcription.md)
+  to lock the Bombieri-Weil formula, test-function class, sign convention, and
+  Candidate v0 attachment test before adding new theory.
+- Use [docs/09_candidate_v0_weil_test_family.md](docs/09_candidate_v0_weil_test_family.md)
+  as the first admissible Candidate v0 test-family attempt before claiming any
+  Lemma C bridge.
+- Use [docs/10_weil_zero_side_obstruction.md](docs/10_weil_zero_side_obstruction.md)
+  to compute the zero-side obstruction and decide whether Candidate v0 needs a
+  Weil-native strengthening.
 - Use known zero ordinates only after definitions are fixed, and only as
   diagnostics.

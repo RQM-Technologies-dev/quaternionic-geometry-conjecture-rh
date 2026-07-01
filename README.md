@@ -48,6 +48,12 @@ prime mirror phases
   completed scale measure from the classical theta kernel.
 - `docs/07_weil_explicit_formula_bridge.md` redirects Lemma C toward the
   explicit-formula positivity route suggested by the original problem.
+- `docs/08_weil_formula_transcription.md` locks the Bombieri-Weil explicit
+  formula convention before any Candidate v0 bridge attempt.
+- `docs/09_candidate_v0_weil_test_family.md` builds the first admissible
+  Candidate v0 Weil test-family candidate.
+- `docs/10_weil_zero_side_obstruction.md` expands the zero-side obstruction for
+  that family and isolates the remaining Lemma C gap.
 - `docs/references.md` lists the background sources and analytic targets.
 - `references/bombieri-riemann-hypothesis-millennium.pdf` is the local source
   copy of Bombieri's Millennium problem article.
@@ -72,6 +78,12 @@ prime mirror phases
   the Lemma A theta-kernel construction for `mu_Xi`.
 - [docs/07_weil_explicit_formula_bridge.md](docs/07_weil_explicit_formula_bridge.md) -
   the Weil explicit-formula bridge audit for Lemma C.
+- [docs/08_weil_formula_transcription.md](docs/08_weil_formula_transcription.md) -
+  the explicit-formula transcription and Candidate v0 attachment test.
+- [docs/09_candidate_v0_weil_test_family.md](docs/09_candidate_v0_weil_test_family.md) -
+  the first admissible Candidate v0 Weil test-family candidate.
+- [docs/10_weil_zero_side_obstruction.md](docs/10_weil_zero_side_obstruction.md) -
+  the zero-side obstruction calculation for the Candidate v0 Weil family.
 - [references/bombieri-riemann-hypothesis-millennium.pdf](references/bombieri-riemann-hypothesis-millennium.pdf) -
   local copy of the original problem article used by the bridge note.
 

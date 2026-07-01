@@ -46,7 +46,7 @@ Allowed:
 ## Avoid Result-Completion Language
 
 Do not present the program as a finished theorem, a closed analytic argument, a
-Clay-problem resolution, a final proof, or a final result. A proof outline does
+Clay-problem resolution, or a final result. A proof outline does
 not change the status of the repo: this remains a conjecture program until the
 theorem-level obligations are proved.
 
@@ -65,7 +65,7 @@ Avoid:
 ## Prize And Publication Boundary
 
 The Millennium Prize rules reinforce the same public standard: this repository
-is not a prize submission, a CMI-recognized proposed solution, or a substitute
+is not a prize submission, a CMI-reviewed proposed solution, or a substitute
 for peer-reviewed publication.
 
 If the program ever reaches a complete proof, the next external milestone is a

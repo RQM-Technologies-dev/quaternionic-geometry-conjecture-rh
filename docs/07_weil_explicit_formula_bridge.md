@@ -146,14 +146,14 @@ Xi(s)=0
   -> alpha=0.
 ```
 
-## Next Document
+## Active Transcription Note
 
-The next note should be a precise transcription:
+The precise transcription is:
 
 ```text
 docs/08_weil_formula_transcription.md
 ```
 
-It should not introduce new theory. It should only lock the explicit formula,
-test-function class, sign convention, and normalization needed before any
-Candidate v0 bridge attempt.
+It locks the explicit formula, test-function class, sign convention,
+normalization constraints, and Candidate v0 attachment test needed before any
+new Lemma C theory is introduced.

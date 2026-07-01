@@ -150,7 +150,7 @@ derive the ordinates `t_n`.
 
 ## Forbidden Uses
 
-- Do not claim the local prime handshake proves RH.
+- Do not claim the local prime handshake establishes the Riemann Hypothesis.
 - Do not use the Euler product naively on `Re(s)=1/2`.
 - Do not claim EigenRing rotation generates zeta zeros.
 - Do not define a mirror stress by summing over primes unless an admissible
