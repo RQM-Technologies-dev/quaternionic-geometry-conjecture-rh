@@ -14,16 +14,18 @@ carry proof weight.
    measure `mu_Xi`, and admissible moment range.
 3. Make `S_Xi(s)` account for the full completed envelope `A(s) zeta(s)`, not
    only local prime amplitudes.
-4. Prove Lemma A, completion transport:
+4. Use the Candidate v0 Lemma A theta-kernel construction:
 
    ```text
    Gamma/pi completion -> Phi_Xi -> mu_Xi.
    ```
 
-   This must establish the positivity, finiteness, non-degeneracy, and moment
-   assumptions needed by Candidate v0. Quaternionic Gamma/factorial geometry
-   may interpret this transport after the classical completed kernel is fixed,
-   but it must not generate zeros or define the measure from zero data.
+   The construction in
+   [06_lemma_a_theta_kernel_construction.md](06_lemma_a_theta_kernel_construction.md)
+   establishes the positivity, finiteness, non-degeneracy, and moment
+   assumptions needed by Candidate v0. Quaternionic Gamma/factorial geometry may
+   interpret this transport after the classical completed kernel is fixed, but it
+   must not generate zeros or define the measure from zero data.
 
 5. Use the conditional Candidate v0 Lemma B proof:
 
@@ -43,8 +45,9 @@ carry proof weight.
 
    This is the hard RH-level theorem target.
 
-7. Combine Lemma A, Lemma B, and Lemma C to conclude that all nontrivial zeros
-   in the intended domain lie on `Re(s)=1/2`.
+7. Combine the Candidate v0 Lemma A construction, the Candidate v0 Lemma B
+   proof, and Lemma C to conclude that all nontrivial zeros in the intended
+   domain lie on `Re(s)=1/2`.
 8. Only after the classical core is defined, construct the optional
    quaternionic lift `Xi_H(q)` and `C_QF_RH(q)`.
 9. For the lift, define `Gamma_H(q)`, `Z_H(q)`, branch choices,

@@ -45,8 +45,8 @@ S_Xi(s) >= 0,
 S_Xi(s)=0  =>  Re(s)=1/2.
 ```
 
-This is Lemma B. It becomes theorem-weighted only after Lemma A supplies the
-measure assumptions below from the completed zeta kernel.
+This is Lemma B. Its measure assumptions are supplied for Candidate v0 by
+[06_lemma_a_theta_kernel_construction.md](06_lemma_a_theta_kernel_construction.md).
 
 ## Assumptions
 
@@ -156,12 +156,14 @@ explicit-formula mechanism rules them out.
 
 ## Next Theorem Target
 
-The next proof work should not re-prove Lemma B. It should either:
+The next proof work should not re-prove Lemma B. With the Candidate v0 Lemma A
+construction recorded separately, the next theorem target is Lemma C:
 
-- prove Lemma A by constructing `mu_Xi` from a classical completed-zeta or
-  theta-kernel object with the required positivity and moments; or
-- attack Lemma C directly by identifying a non-circular reason why
-  `Xi(s)=0` forces equality in the Candidate v0 Cauchy-Schwarz inequality.
+```text
+Xi(s)=0  =>  S_Xi(s)=0.
+```
 
-Until one of those steps is proved, Candidate v0 remains a conditional proof
-route inside the Completed Zeta Stability Conjecture.
+The required work is to identify a non-circular reason why `Xi(s)=0` forces
+equality in the Candidate v0 Cauchy-Schwarz inequality. Until that is proved,
+Candidate v0 remains a conjectural proof route inside the Completed Zeta
+Stability Conjecture.

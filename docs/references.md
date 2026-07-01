@@ -16,6 +16,8 @@ that should inform the completed-zeta stability target.
 ## Explicit-Formula And Positivity Background
 
 - Andre Weil, explicit-formula positivity criteria for zeta and L-functions.
+- Riemann's theta-kernel / Fourier-cosine representation of the completed
+  xi function.
 - A. M. Odlyzko, computational studies of zeta zeros and zero statistics.
 - E. Bombieri, survey writing on the Riemann zeta function and the Riemann
   Hypothesis.

@@ -32,6 +32,9 @@ functional where `Re(s)=1/2` is the only scale-stable cancellation axis.
 - Organize the proof target as the bridge lemma program: completion transport
   for `mu_Xi`, mirror-axis uniqueness for `S_Xi`, then the hard
   zero-to-stability bridge.
+- Use [docs/06_lemma_a_theta_kernel_construction.md](docs/06_lemma_a_theta_kernel_construction.md)
+  as the Candidate v0 Lemma A construction of `mu_Xi` from the classical
+  theta kernel.
 - Use [docs/05_candidate_v0_lemma_b_proof.md](docs/05_candidate_v0_lemma_b_proof.md)
   as the conditional Lemma B proof for Candidate v0 under the completed measure
   assumptions.
@@ -46,6 +49,6 @@ functional where `Re(s)=1/2` is the only scale-stable cancellation axis.
   to separate theorem obligations from numerical checks.
 - State the stationarity-to-zero implication before using zero data.
 - Treat Lemma C, `Xi(s)=0 => S_Xi(s)=0`, as the next RH-level gap after the
-  conditional Candidate v0 Lemma B proof.
+  Candidate v0 Lemma A construction and Lemma B proof.
 - Use known zero ordinates only after definitions are fixed, and only as
   diagnostics.

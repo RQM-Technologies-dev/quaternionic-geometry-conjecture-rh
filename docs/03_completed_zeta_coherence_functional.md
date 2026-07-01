@@ -203,11 +203,11 @@ Gamma/pi completion, and its slice-compatible Gamma/factorial interpretation,
 supplies the completed scale kernel Phi_Xi and normalized measure mu_Xi.
 ```
 
-This lemma must prove, using classical completed-zeta or theta-kernel
-analysis, that the measure used by Candidate v0 is positive, finite,
-non-degenerate, and has the required exponential moments. Quaternionic or
-factorial language may interpret the completion geometry after this classical
-kernel is fixed, but it must not define the kernel from zero data.
+For Candidate v0, [06_lemma_a_theta_kernel_construction.md](06_lemma_a_theta_kernel_construction.md)
+constructs this measure from the classical theta kernel and records positivity,
+finiteness, non-degeneracy, and exponential moments. Quaternionic or factorial
+language may interpret the completion geometry after this classical kernel is
+fixed, but it must not define the kernel from zero data.
 
 Lemma B: mirror-axis uniqueness.
 
@@ -342,13 +342,17 @@ behavior.
 
 ## Proof-Weight Requirements
 
-Before `S_Xi(s)` can carry theorem weight, the program must specify:
+Before `S_Xi(s)` can carry theorem weight beyond the conditional Lemma A and
+Lemma B route, the program must specify:
 
 - its domain in the critical strip or completed-zeta domain;
 - the completed kernel `Phi_Xi` and normalized measure `mu_Xi`;
 - positivity, finiteness, non-degeneracy, and moment assumptions;
-- Lemma A, the completion-transport proof for `mu_Xi`;
-- Lemma B, the off-axis coercivity proof for Candidate v0;
+- Lemma A, the completion-transport proof for `mu_Xi`, as recorded for
+  Candidate v0 in
+  [06_lemma_a_theta_kernel_construction.md](06_lemma_a_theta_kernel_construction.md);
+- Lemma B, the off-axis coercivity proof for Candidate v0, as recorded in
+  [05_candidate_v0_lemma_b_proof.md](05_candidate_v0_lemma_b_proof.md);
 - Lemma C, the zero-to-stability statement `Xi(s)=0 => S_Xi(s)=0`.
 
 Before `C_QF_RH(q)` can carry theorem weight as a lift, the program must also
