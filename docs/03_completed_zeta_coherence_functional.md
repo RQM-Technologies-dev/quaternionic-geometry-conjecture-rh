@@ -172,7 +172,8 @@ S_Xi(s) = 1 - 1 / (M(alpha) M(-alpha)).
 
 This form is non-circular: it uses the completed `Xi` kernel and its Gamma/pi
 envelope, not known zero ordinates. Under the positivity, finiteness, and
-non-degeneracy assumptions, Cauchy-Schwarz is expected to give
+non-degeneracy assumptions, Cauchy-Schwarz gives the conditional Lemma B proof
+recorded in [05_candidate_v0_lemma_b_proof.md](05_candidate_v0_lemma_b_proof.md):
 
 ```text
 S_Xi(s) >= 0,
@@ -214,8 +215,9 @@ Lemma B: mirror-axis uniqueness.
 S_Xi(s)=0  =>  Re(s)=1/2.
 ```
 
-For Candidate v0, this is the Cauchy-Schwarz equality-case statement once
-Lemma A supplies the measure assumptions.
+For Candidate v0, this is the Cauchy-Schwarz equality-case statement proved
+conditionally in [05_candidate_v0_lemma_b_proof.md](05_candidate_v0_lemma_b_proof.md)
+once Lemma A supplies the measure assumptions.
 
 Lemma C: zero-to-stability bridge.
 

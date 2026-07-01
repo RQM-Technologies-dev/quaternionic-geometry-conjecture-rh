@@ -25,14 +25,15 @@ carry proof weight.
    may interpret this transport after the classical completed kernel is fixed,
    but it must not generate zeros or define the measure from zero data.
 
-5. Prove Lemma B, off-axis coercivity:
+5. Use the conditional Candidate v0 Lemma B proof:
 
    ```text
    S_Xi(s) = 0  =>  Re(s)=1/2.
    ```
 
-   For Candidate v0, this is expected to follow from Cauchy-Schwarz plus
-   positivity, finiteness, and non-degeneracy of `mu_Xi`.
+   For Candidate v0, this follows from Cauchy-Schwarz plus positivity,
+   finiteness, and non-degeneracy of `mu_Xi`; the proof is recorded in
+   [05_candidate_v0_lemma_b_proof.md](05_candidate_v0_lemma_b_proof.md).
 
 6. Prove Lemma C, the zero-to-stability bridge:
 
