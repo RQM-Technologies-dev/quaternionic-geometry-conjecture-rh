@@ -66,7 +66,8 @@ mirror symmetry + completed analytic envelope + positivity/coercivity
 ```
 
 This statement is not yet proved. It identifies the analytic object the repo is
-trying to build.
+trying to build. The next classical object is the scale-stability defect
+`S_Xi(s)`, which must be defined before any quaternionic lift is used.
 
 ## Completed Mirror Envelope
 

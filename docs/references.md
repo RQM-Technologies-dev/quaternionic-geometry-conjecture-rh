@@ -29,7 +29,8 @@ completed-zeta coherence target.
 
 ## Repository-Specific Development Targets
 
-- Define `Xi_H(q)` and `C_QF_RH(q)` precisely.
+- Define the classical scale-stability defect `S_Xi(s)` precisely.
+- Lift `S_Xi(s)` only afterward through `Xi_H(q)` and `C_QF_RH(q)`.
 - Connect the mirror-scaling identity to a legitimate completed-zeta or
   explicit-formula object.
 - State a non-circular stationarity, positivity, or coercivity condition.

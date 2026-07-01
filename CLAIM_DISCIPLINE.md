@@ -13,6 +13,7 @@ Use:
 - conjecture program
 - conjectural mechanism
 - completed-zeta coherence target
+- classical scale-stability defect
 - scale-stable cancellation axis
 - mirror-balance target
 - theorem-level obligation
@@ -23,6 +24,7 @@ Use:
 Allowed:
 
 - The repository studies a completed-zeta coherence functional target.
+- `S_Xi(s)` is the immediate classical definition target.
 - The critical line `Re(s)=1/2` is the unique point where reflected local prime
   amplitudes `p^(-sigma)` and `p^(-(1-sigma))` match.
 - The classical completed zeta function satisfies `Xi(s)=Xi(1-s)`.
@@ -59,7 +61,7 @@ Use this:
 
 ```text
 The completed-zeta coherence target asks whether scale-stable cancellation can
-be formulated non-circularly through Xi_H and C_QF_RH.
+be formulated non-circularly through S_Xi before any quaternionic lift is used.
 ```
 
 Use this:

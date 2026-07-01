@@ -117,6 +117,29 @@ This is established complex zeta theory. Any quaternionic construction must say
 whether it is using a classical slice value, a lifted value, or a diagnostic
 residual.
 
+## Classical Scale-Stability Target
+
+The immediate definition target is a real-valued scale-stability defect
+
+```text
+S_Xi(s).
+```
+
+It is intended to be built from completed zeta, the reflection `s -> 1-s`, and
+an admissible log-scale or test-function structure. It must be defined without
+using known zero locations.
+
+The target theorem obligations are:
+
+```text
+S_Xi(s) = 0  =>  Re(s)=1/2,
+Xi(s) = 0    =>  S_Xi(s)=0.
+```
+
+If both implications are proved for all nontrivial zeros in the intended
+domain, they would imply the Riemann Hypothesis. At present `S_Xi(s)` is a
+definition target, not a completed formula.
+
 ## Quaternionic Completed Target
 
 The completed quaternionic zeta target is
@@ -161,8 +184,8 @@ Ledger status:
 
 Any future stationarity-to-zero claim must satisfy these rules.
 
-- Do not define `C_QF_RH(q)` or any auxiliary stress using known zero
-  locations.
+- Do not define `S_Xi(s)`, `C_QF_RH(q)`, or any auxiliary stress using known
+  zero locations.
 - Do not tune slices, norms, branches, or test objects to force agreement with
   tabulated zeros.
 - Specify domain, regularity, symmetry, norm, and stationarity before comparing

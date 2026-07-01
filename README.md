@@ -8,6 +8,10 @@ Build a non-circular completed-zeta coherence functional for which Re(s)=1/2
 is the only scale-stable cancellation axis.
 ```
 
+The immediate milestone is the classical scale-stability defect `S_Xi(s)`.
+Only after that object is specified should the quaternionic lift `Xi_H(q)` and
+`C_QF_RH(q)` carry additional structure.
+
 The quaternionic language is retained only where it clarifies shell geometry.
 It is not treated as a zero generator or as a proof by visualization.
 
@@ -16,8 +20,8 @@ It is not treated as a zero generator or as a proof by visualization.
 ```text
 prime mirror phases
   -> completed zeta symmetry Xi(s)=Xi(1-s)
-  -> scale-stable midpoint Re(s)=1/2
-  -> completed coherence target C_QF_RH(q)=||Xi_H(q)||^2
+  -> classical scale-stability defect S_Xi(s)
+  -> optional quaternionic lift C_QF_RH(q)=||Xi_H(q)||^2
   -> theorem obligations before any RH-relevant claim
 ```
 
@@ -29,8 +33,8 @@ prime mirror phases
   defaults.
 - `docs/02_mirror_scaling_eigenring.md` states the mirror-scaling axis and the
   supporting EigenRing invariance lemma.
-- `docs/03_completed_zeta_coherence_functional.md` defines the main research
-  target.
+- `docs/03_completed_zeta_coherence_functional.md` defines `S_Xi(s)` as the
+  classical core and `C_QF_RH(q)` as its quaternionic lift target.
 - `docs/04_theorem_obligations_and_diagnostics.md` states proof obligations and
   diagnostic rules.
 - `docs/references.md` lists the background sources and analytic targets.
@@ -46,7 +50,7 @@ prime mirror phases
 - [docs/02_mirror_scaling_eigenring.md](docs/02_mirror_scaling_eigenring.md) -
   why `Re(s)=1/2` is the unique mirror-balanced scale axis.
 - [docs/03_completed_zeta_coherence_functional.md](docs/03_completed_zeta_coherence_functional.md) -
-  the completed-zeta coherence target.
+  the classical scale-stability core and completed-zeta coherence target.
 - [docs/04_theorem_obligations_and_diagnostics.md](docs/04_theorem_obligations_and_diagnostics.md) -
   obligations before diagnostics can carry meaning.
 

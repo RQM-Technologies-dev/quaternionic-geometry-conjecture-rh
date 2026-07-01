@@ -7,8 +7,8 @@ cancellation axis.
 ## 1. Lock Definitions
 
 - Use [docs/01_definition_ledger.md](docs/01_definition_ledger.md) as the
-  canonical source for `s`, `q`, slices, reflections, norms, `Xi`, `Gamma_H`,
-  `Z_H`, and non-circularity rules.
+  canonical source for `s`, `q`, slices, reflections, norms, `Xi`, `S_Xi`,
+  `Gamma_H`, `Z_H`, and non-circularity rules.
 - Treat off-slice `Gamma_H`, `Z_H`, multiplication order, and functional
   calculus as analytic development targets until explicitly constructed.
 - Do not introduce diagnostics that depend on choices missing from the ledger.
@@ -23,11 +23,14 @@ cancellation axis.
 - Keep EigenRing geometry as an invariance lemma for shells already on the
   critical slice.
 
-## 3. Define The Completed-Zeta Coherence Functional
+## 3. Define The Classical Scale-Stability Core
 
 - Use [docs/03_completed_zeta_coherence_functional.md](docs/03_completed_zeta_coherence_functional.md)
   as the canonical target document.
-- Center the program on `Xi_H(q)` and `C_QF_RH(q)=||Xi_H(q)||^2`.
+- Make `S_Xi(s)` the immediate milestone: a real-valued completed-zeta
+  scale-stability defect defined before any quaternionic lift.
+- Treat `Xi_H(q)` and `C_QF_RH(q)=||Xi_H(q)||^2` as the quaternionic extension
+  of the classical core.
 - Treat slice checks, Gamma-lift conjugacy, and Weil/explicit-formula energy as
   supporting tests for the completed target, not as separate proof paths.
 
