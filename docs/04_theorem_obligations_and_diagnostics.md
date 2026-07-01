@@ -43,7 +43,9 @@ carry proof weight.
    Xi(s) = 0  =>  S_Xi(s)=0.
    ```
 
-   This is the hard RH-level theorem target.
+   This is the hard RH-level theorem target. The current bridge direction is
+   the Weil explicit-formula positivity audit in
+   [07_weil_explicit_formula_bridge.md](07_weil_explicit_formula_bridge.md).
 
 7. Combine the Candidate v0 Lemma A construction, the Candidate v0 Lemma B
    proof, and Lemma C to conclude that all nontrivial zeros in the intended

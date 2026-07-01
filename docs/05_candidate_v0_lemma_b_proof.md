@@ -166,4 +166,5 @@ Xi(s)=0  =>  S_Xi(s)=0.
 The required work is to identify a non-circular reason why `Xi(s)=0` forces
 equality in the Candidate v0 Cauchy-Schwarz inequality. Until that is proved,
 Candidate v0 remains a conjectural proof route inside the Completed Zeta
-Stability Conjecture.
+Stability Conjecture. The current bridge direction is recorded in
+[07_weil_explicit_formula_bridge.md](07_weil_explicit_formula_bridge.md).

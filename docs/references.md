@@ -8,6 +8,8 @@ that should inform the completed-zeta stability target.
 
 - Bernhard Riemann, "On the Number of Primes Less Than a Given Magnitude"
   (1859).
+- E. Bombieri, "Problems of the Millennium: the Riemann Hypothesis".
+  Local copy: [bombieri-riemann-hypothesis-millennium.pdf](../references/bombieri-riemann-hypothesis-millennium.pdf).
 - E. C. Titchmarsh, *The Theory of the Riemann Zeta-Function*.
 - H. M. Edwards, *Riemann's Zeta Function*.
 - H. Iwaniec and E. Kowalski, *Analytic Number Theory*.
@@ -35,5 +37,6 @@ that should inform the completed-zeta stability target.
 - Lift `S_Xi(s)` only afterward through `Xi_H(q)` and `C_QF_RH(q)`.
 - Connect the mirror-scaling identity to a legitimate completed-zeta or
   explicit-formula object.
+- Use the Bombieri/Weil explicit-formula route as the next Lemma C bridge audit.
 - State a non-circular stationarity, positivity, or coercivity condition.
 - Use zero data only as diagnostics after the analytic object is fixed.

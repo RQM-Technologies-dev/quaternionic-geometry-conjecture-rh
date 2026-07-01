@@ -50,5 +50,8 @@ functional where `Re(s)=1/2` is the only scale-stable cancellation axis.
 - State the stationarity-to-zero implication before using zero data.
 - Treat Lemma C, `Xi(s)=0 => S_Xi(s)=0`, as the next RH-level gap after the
   Candidate v0 Lemma A construction and Lemma B proof.
+- Use [docs/07_weil_explicit_formula_bridge.md](docs/07_weil_explicit_formula_bridge.md)
+  to move Lemma C toward Weil explicit-formula positivity rather than treating
+  it as a consequence of completed symmetry alone.
 - Use known zero ordinates only after definitions are fixed, and only as
   diagnostics.

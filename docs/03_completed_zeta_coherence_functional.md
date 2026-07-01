@@ -227,7 +227,9 @@ Xi(s)=0  =>  S_Xi(s)=0.
 
 This is the RH-hard step. It must show that completed zeta cancellation forces
 the completed mirror-angle stability measured by `S_Xi`, without using known
-zero ordinates or tuning the measure to the zero list.
+zero ordinates or tuning the measure to the zero list. The current bridge audit
+is [07_weil_explicit_formula_bridge.md](07_weil_explicit_formula_bridge.md),
+which redirects Lemma C toward explicit-formula positivity.
 
 The intended conclusion is:
 
@@ -353,7 +355,9 @@ Lemma B route, the program must specify:
   [06_lemma_a_theta_kernel_construction.md](06_lemma_a_theta_kernel_construction.md);
 - Lemma B, the off-axis coercivity proof for Candidate v0, as recorded in
   [05_candidate_v0_lemma_b_proof.md](05_candidate_v0_lemma_b_proof.md);
-- Lemma C, the zero-to-stability statement `Xi(s)=0 => S_Xi(s)=0`.
+- Lemma C, the zero-to-stability statement `Xi(s)=0 => S_Xi(s)=0`, with the
+  explicit-formula bridge audited in
+  [07_weil_explicit_formula_bridge.md](07_weil_explicit_formula_bridge.md).
 
 Before `C_QF_RH(q)` can carry theorem weight as a lift, the program must also
 specify:

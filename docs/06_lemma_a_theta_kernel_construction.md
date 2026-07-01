@@ -200,4 +200,6 @@ That is the RH-level content. The theta-kernel construction does not by itself
 exclude off-line reflected zero pairs.
 
 Any next proof outline must therefore explain, without using zero ordinates, why
-completed zeta cancellation forces Candidate v0 scale-stability.
+completed zeta cancellation forces Candidate v0 scale-stability. The current
+bridge direction is the Weil explicit-formula audit in
+[07_weil_explicit_formula_bridge.md](07_weil_explicit_formula_bridge.md).
