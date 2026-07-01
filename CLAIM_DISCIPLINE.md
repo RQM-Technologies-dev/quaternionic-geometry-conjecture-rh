@@ -1,7 +1,7 @@
 # Claim Discipline
 
-This repository is a conjectural research program for a completed-zeta
-coherence functional. The public rule is simple: the repo studies a target
+This repository is a conjectural research program for the Completed Zeta
+Stability Conjecture. The public rule is simple: the repo studies a target
 functional and its theorem-level obligations; it does not claim a proof of the
 Riemann Hypothesis.
 
@@ -12,7 +12,12 @@ Use:
 - conjecture
 - conjecture program
 - conjectural mechanism
-- completed-zeta coherence target
+- Completed Zeta Stability Conjecture
+- completed zeta stability target
+- proof outline
+- conjectural proof outline
+- proof route
+- theorem-obligation sketch
 - classical scale-stability defect
 - scale-stable cancellation axis
 - mirror-balance target
@@ -23,7 +28,8 @@ Use:
 
 Allowed:
 
-- The repository studies a completed-zeta coherence functional target.
+- The repository studies a completed zeta stability functional target.
+- The central conjecture is the Completed Zeta Stability Conjecture.
 - `S_Xi(s)` is the immediate classical definition target.
 - The critical line `Re(s)=1/2` is the unique point where reflected local prime
   amplitudes `p^(-sigma)` and `p^(-(1-sigma))` match.
@@ -32,11 +38,17 @@ Allowed:
 - Quaternionic EigenRing geometry preserves critical-slice shell radius after a
   shell is already placed on the slice.
 - Zero data can be used as diagnostics only after definitions are fixed.
+- A proof outline may be included when it is explicitly labeled as a
+  conjectural outline, proof route, or theorem-obligation sketch.
+- Any proof outline must state the open bridge obligations, especially
+  `Xi(s)=0 => S_Xi(s)=0`.
 
 ## Avoid Result-Completion Language
 
 Do not present the program as a finished theorem, a closed analytic argument, a
-Clay-problem resolution, or a final result.
+Clay-problem resolution, a final proof, or a final result. A proof outline does
+not change the status of the repo: this remains a conjecture program until the
+theorem-level obligations are proved.
 
 Avoid:
 
@@ -44,6 +56,8 @@ Avoid:
 - completion language,
 - finality tags,
 - theorem language without a stated theorem-level obligation,
+- proof-outline language that implies the open bridge obligations are already
+  discharged,
 - diagnostic language that substitutes numerical agreement for analytic work.
 - claims that quaternionic geometry generates zeta zeros.
 - claims that the Euler product converges normally on `Re(s)=1/2`.
@@ -60,8 +74,22 @@ amplitude-balance axis.
 Use this:
 
 ```text
-The completed-zeta coherence target asks whether scale-stable cancellation can
+The completed zeta stability target asks whether scale-stable cancellation can
 be formulated non-circularly through S_Xi before any quaternionic lift is used.
+```
+
+Use this:
+
+```text
+The Completed Zeta Stability Conjecture asks whether completed zeta zeros force
+the scale-stability condition S_Xi(s)=0, while S_Xi(s)=0 forces Re(s)=1/2.
+```
+
+Use this:
+
+```text
+The conjectural proof outline is a route through Lemma A, Lemma B, and Lemma C;
+the bridge Xi(s)=0 => S_Xi(s)=0 remains an open theorem-level obligation.
 ```
 
 Use this:
@@ -81,4 +109,5 @@ of:
 - a diagnostic,
 - a theorem-level obligation,
 - an analytic development target,
+- a conjectural proof outline that states its open bridge obligations,
 - or a reference to established classical zeta theory.

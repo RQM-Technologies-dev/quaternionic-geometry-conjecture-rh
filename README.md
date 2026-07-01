@@ -1,12 +1,16 @@
-# Completed-Zeta Coherence Functional Program
+# Completed Zeta Stability
 
-This repository is a disciplined research program for a completed-zeta
-coherence functional. The target is narrow:
+This repository is `completed-zeta-stability`: a disciplined research program
+for the **Completed Zeta Stability Conjecture**. The target is narrow:
 
 ```text
-Build a non-circular completed-zeta coherence functional for which Re(s)=1/2
+Build a non-circular completed-zeta stability functional for which Re(s)=1/2
 is the only scale-stable cancellation axis.
 ```
+
+The conjecture asks whether a completed-zeta scale-stability defect `S_Xi(s)`
+can be defined so that completed zeta zeros force scale stability, and scale
+stability forces the critical line.
 
 The immediate milestone is the classical scale-stability defect `S_Xi(s)`.
 Only after that object is specified should the quaternionic lift `Xi_H(q)` and
@@ -33,8 +37,9 @@ prime mirror phases
   defaults.
 - `docs/02_mirror_scaling_eigenring.md` states the mirror-scaling axis and the
   supporting EigenRing invariance lemma.
-- `docs/03_completed_zeta_coherence_functional.md` defines `S_Xi(s)` as the
-  classical core and `C_QF_RH(q)` as its quaternionic lift target.
+- `docs/03_completed_zeta_coherence_functional.md` states the Completed Zeta
+  Stability Conjecture, defines `S_Xi(s)` as the classical core, and records
+  `C_QF_RH(q)` as its quaternionic lift target.
 - `docs/04_theorem_obligations_and_diagnostics.md` states proof obligations and
   diagnostic rules.
 - `docs/references.md` lists the background sources and analytic targets.
@@ -50,7 +55,7 @@ prime mirror phases
 - [docs/02_mirror_scaling_eigenring.md](docs/02_mirror_scaling_eigenring.md) -
   why `Re(s)=1/2` is the unique mirror-balanced scale axis.
 - [docs/03_completed_zeta_coherence_functional.md](docs/03_completed_zeta_coherence_functional.md) -
-  the classical scale-stability core and completed-zeta coherence target.
+  the Completed Zeta Stability Conjecture and its classical core.
 - [docs/04_theorem_obligations_and_diagnostics.md](docs/04_theorem_obligations_and_diagnostics.md) -
   obligations before diagnostics can carry meaning.
 

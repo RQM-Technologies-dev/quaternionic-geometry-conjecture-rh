@@ -1,10 +1,20 @@
-# Completed-Zeta Coherence Functional
+# Completed Zeta Stability Conjecture
 
-This document defines the central research target: first a classical
-completed-zeta scale-stability defect `S_Xi(s)`, then a quaternionic lift of
-that target.
+This document defines the Completed Zeta Stability Conjecture: first a
+classical completed-zeta scale-stability defect `S_Xi(s)`, then a quaternionic
+lift of that target.
 
 The target is conjectural. It is not a proof of RH.
+
+The conjectural shape is:
+
+```text
+Xi(s)=0  =>  S_Xi(s)=0  =>  Re(s)=1/2.
+```
+
+The first implication is the hard zero-to-stability bridge. The second is the
+scale-stability axis claim supplied by Candidate v0 under the stated completed
+kernel assumptions.
 
 ## Classical Input
 

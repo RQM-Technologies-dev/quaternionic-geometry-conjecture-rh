@@ -1,8 +1,8 @@
 # Roadmap
 
-This roadmap keeps the repository pointed at one research target: a rigorous
-completed-zeta coherence functional where `Re(s)=1/2` is the only scale-stable
-cancellation axis.
+This roadmap keeps `completed-zeta-stability` pointed at one research target:
+the Completed Zeta Stability Conjecture, a rigorous completed-zeta stability
+functional where `Re(s)=1/2` is the only scale-stable cancellation axis.
 
 ## 1. Lock Definitions
 
@@ -26,7 +26,7 @@ cancellation axis.
 ## 3. Define The Classical Scale-Stability Core
 
 - Use [docs/03_completed_zeta_coherence_functional.md](docs/03_completed_zeta_coherence_functional.md)
-  as the canonical target document.
+  as the canonical conjecture and target document.
 - Make `S_Xi(s)` the immediate milestone: a real-valued completed-zeta
   scale-stability defect defined before any quaternionic lift.
 - Organize the proof target as the bridge lemma program: completion transport

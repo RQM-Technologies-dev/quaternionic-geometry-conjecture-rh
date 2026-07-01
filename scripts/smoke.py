@@ -19,7 +19,7 @@ def run(command: list[str]) -> None:
 def main() -> int:
     run([sys.executable, "scripts/generate_critical_slice_diagram.py"])
     svg = FIGURE.read_text(encoding="utf-8")
-    required = ["Re(s)=1/2", "Re(q)=1/2", "projection", "spectral-coherence"]
+    required = ["Re(s)=1/2", "Re(q)=1/2", "projection", "scale-stability"]
     missing = [item for item in required if item not in svg]
     if missing:
         print(f"Figure is missing expected labels: {', '.join(missing)}")
@@ -32,4 +32,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

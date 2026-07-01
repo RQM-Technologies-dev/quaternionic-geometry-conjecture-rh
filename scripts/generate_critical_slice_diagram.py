@@ -67,7 +67,7 @@ def build_svg(width: int = 920, height: int = 520) -> str:
     </marker>
   </defs>
 
-  <text x="{width // 2}" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">Conjectural direction: zeta symmetry -> quaternionic lift -> stationary spectral-coherence states</text>
+  <text x="{width // 2}" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">Conjectural direction: zeta symmetry -> classical scale-stability defect -> optional quaternionic lift</text>
 </svg>
 """
 
@@ -90,4 +90,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

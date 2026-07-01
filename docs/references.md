@@ -1,8 +1,8 @@
 # References
 
-This repository is a conjecture program. The references below mark the
-classical, positivity, and quaternionic background that should inform the
-completed-zeta coherence target.
+This repository is the Completed Zeta Stability Conjecture program. The
+references below mark the classical, positivity, and quaternionic background
+that should inform the completed-zeta stability target.
 
 ## Classical Zeta Theory
 
