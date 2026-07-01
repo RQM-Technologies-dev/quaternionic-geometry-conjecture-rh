@@ -1,61 +1,40 @@
 # Roadmap
 
-This roadmap is conjecture-oriented. Every phase supports the **Quaternionic
-Geometry Conjecture of the Riemann Hypothesis** while keeping the theorem-level
-obligations visible.
+This roadmap keeps the repository pointed at one research target: a rigorous
+completed-zeta coherence functional where `Re(s)=1/2` is the only scale-stable
+cancellation axis.
 
-## 1. Clarify Quaternionic Lift
+## 1. Lock Definitions
 
-- Define the quaternionic variable domain.
-- Specify the complex slices used for comparison with `s = sigma + it`.
-- State the Gamma-lift operator with domain, branch, and regularity
-  assumptions.
-- Track how noncommutativity affects multiplication order and functional
-  calculus.
-- Record active modeling defaults in
-  [docs/08_definition_ledger.md](docs/08_definition_ledger.md).
+- Use [docs/01_definition_ledger.md](docs/01_definition_ledger.md) as the
+  canonical source for `s`, `q`, slices, reflections, norms, `Xi`, `Gamma_H`,
+  `Z_H`, and non-circularity rules.
+- Treat off-slice `Gamma_H`, `Z_H`, multiplication order, and functional
+  calculus as analytic development targets until explicitly constructed.
+- Do not introduce diagnostics that depend on choices missing from the ledger.
 
-## 2. Formalize The Critical Slice
+## 2. Establish The Mirror-Scaling Axis
 
-- Define the slice `Re(q)=1/2` as the quaternionic equilibrium candidate.
-- Specify the projection from quaternionic slice space to the complex critical
-  line.
-- Identify the symmetries that should preserve the slice.
-- Separate geometric intuition from analytic claims.
+- Use [docs/02_mirror_scaling_eigenring.md](docs/02_mirror_scaling_eigenring.md)
+  to keep the central algebra visible: local prime mirror amplitudes
+  `p^(-sigma)` and `p^(-(1-sigma))` match iff `sigma=1/2`.
+- Develop this as a scale-stability target, not as a naive Euler-product proof
+  in the critical strip.
+- Keep EigenRing geometry as an invariance lemma for shells already on the
+  critical slice.
 
-## 3. Define The Coherence Functional
+## 3. Define The Completed-Zeta Coherence Functional
 
-- Introduce a real-valued spectral-coherence functional `C(q)`.
-- State its required symmetry, regularity, and stationarity properties.
-- Determine whether the functional should be built from a Gamma lift, a
-  completed-zeta normalization, a Weil-type kernel, or a compatible combination.
-- Define the coherence defect for off-slice candidates.
-- Compare the candidate functional families in
-  [docs/07_candidate_coherence_functionals.md](docs/07_candidate_coherence_functionals.md).
+- Use [docs/03_completed_zeta_coherence_functional.md](docs/03_completed_zeta_coherence_functional.md)
+  as the canonical target document.
+- Center the program on `Xi_H(q)` and `C_QF_RH(q)=||Xi_H(q)||^2`.
+- Treat slice checks, Gamma-lift conjugacy, and Weil/explicit-formula energy as
+  supporting tests for the completed target, not as separate proof paths.
 
-## 4. Relate The Model To The Zeta Functional Equation
+## 4. Prove Obligations Before Diagnostics
 
-- Align quaternionic conjugate symmetry with the classical `s <-> 1-s`
-  symmetry.
-- Track how Gamma factors, powers of pi, and normalization choices enter the
-  model.
-- Identify which structure is classical and which structure is conjectural.
-- State the exact analytic bridge required between zeta zeros and stationary
-  coherence states.
-
-## 5. Connect The Model To Known Zero Data As Diagnostics
-
-- Use tabulated nontrivial zero data as a diagnostic input.
-- Compare projected stationary-state locations with critical-line data.
-- Track residuals, symmetry errors, and coherence defects.
-- Treat numerical agreement as a guide for analytic target selection.
-
-## 6. Identify Theorem-Level Obligations
-
-- Establish the quaternionic lift on a rigorous domain.
-- Define the spectral-coherence functional without circular dependence on the
-  desired zero location.
-- Connect stationarity of `C(q)` to the classical zeta zero condition.
-- Show that off-slice coherence defects have the required sign or coercive
-  structure.
-- Derive a critical-line consequence from the preceding analytic obligations.
+- Use [docs/04_theorem_obligations_and_diagnostics.md](docs/04_theorem_obligations_and_diagnostics.md)
+  to separate theorem obligations from numerical checks.
+- State the stationarity-to-zero implication before using zero data.
+- Use known zero ordinates only after definitions are fixed, and only as
+  diagnostics.

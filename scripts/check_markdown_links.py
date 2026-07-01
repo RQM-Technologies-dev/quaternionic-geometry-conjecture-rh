@@ -13,9 +13,11 @@ SKIP_PREFIXES = ("http://", "https://", "mailto:", "#")
 
 
 def iter_markdown_files(root: Path) -> list[Path]:
-    paths = [root / "README.md", root / "CONJECTURE.md", root / "CLAIM_DISCIPLINE.md", root / "ROADMAP.md"]
-    paths.extend(sorted((root / "docs").glob("*.md")))
-    return [path for path in paths if path.exists()]
+    return sorted(
+        path
+        for path in root.rglob("*.md")
+        if ".git" not in path.parts
+    )
 
 
 def target_exists(markdown_file: Path, raw_target: str) -> bool:
@@ -56,4 +58,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

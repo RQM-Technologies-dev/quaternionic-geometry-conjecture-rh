@@ -1,7 +1,8 @@
 # References
 
 This repository is a conjecture program. The references below mark the
-classical and geometric background that should inform the analytic development.
+classical, positivity, and quaternionic background that should inform the
+completed-zeta coherence target.
 
 ## Classical Zeta Theory
 
@@ -28,9 +29,8 @@ classical and geometric background that should inform the analytic development.
 
 ## Repository-Specific Development Targets
 
-- Define the quaternionic Gamma lift precisely.
-- Define the critical slice projection.
-- Define the spectral-coherence functional.
-- Connect the model to the zeta functional equation.
-- Use zero data as diagnostics for the analytic development sequence.
-
+- Define `Xi_H(q)` and `C_QF_RH(q)` precisely.
+- Connect the mirror-scaling identity to a legitimate completed-zeta or
+  explicit-formula object.
+- State a non-circular stationarity, positivity, or coercivity condition.
+- Use zero data only as diagnostics after the analytic object is fixed.

@@ -1,10 +1,9 @@
-# Claim Framing Discipline
+# Claim Discipline
 
-This repository is a conjecture program for the **Quaternionic Geometry
-Conjecture of the Riemann Hypothesis**.
-
-The public rule is simple: describe the program as a conjectural geometric
-interpretation with explicit analytic development targets.
+This repository is a conjectural research program for a completed-zeta
+coherence functional. The public rule is simple: the repo studies a target
+functional and its theorem-level obligations; it does not claim a proof of the
+Riemann Hypothesis.
 
 ## Use This Framing
 
@@ -13,8 +12,9 @@ Use:
 - conjecture
 - conjecture program
 - conjectural mechanism
-- quaternionic interpretation
-- spectral-coherence model
+- completed-zeta coherence target
+- scale-stable cancellation axis
+- mirror-balance target
 - theorem-level obligation
 - analytic development target
 
@@ -22,15 +22,14 @@ Use:
 
 Allowed:
 
-- The repository presents a quaternionic interpretation of zeta symmetry.
-- The central object is a conjecture.
-- The conjecture program organizes the critical line as a projection of the
-  quaternionic critical slice `Re(q)=1/2`.
-- The spectral-coherence model suggests stationary-state diagnostics on that
-  slice.
-- Zero data can be used as diagnostics for the model.
-- The roadmap identifies theorem-level obligations and analytic development
-  targets.
+- The repository studies a completed-zeta coherence functional target.
+- The critical line `Re(s)=1/2` is the unique point where reflected local prime
+  amplitudes `p^(-sigma)` and `p^(-(1-sigma))` match.
+- The classical completed zeta function satisfies `Xi(s)=Xi(1-s)`.
+- `Xi_H`, `Gamma_H` off-slice, and `Z_H` are analytic development targets.
+- Quaternionic EigenRing geometry preserves critical-slice shell radius after a
+  shell is already placed on the slice.
+- Zero data can be used as diagnostics only after definitions are fixed.
 
 ## Avoid Result-Completion Language
 
@@ -44,28 +43,30 @@ Avoid:
 - finality tags,
 - theorem language without a stated theorem-level obligation,
 - diagnostic language that substitutes numerical agreement for analytic work.
+- claims that quaternionic geometry generates zeta zeros.
+- claims that the Euler product converges normally on `Re(s)=1/2`.
 
 ## Replacement Patterns
 
 Use this:
 
 ```text
-The conjecture interprets the critical line as a projection of the quaternionic
-critical slice.
+The prime mirror-handshake identity marks Re(s)=1/2 as the unique local
+amplitude-balance axis.
 ```
 
 Use this:
 
 ```text
-The spectral-coherence model suggests a conjectural mechanism for why stationary
-states concentrate on Re(q)=1/2.
+The completed-zeta coherence target asks whether scale-stable cancellation can
+be formulated non-circularly through Xi_H and C_QF_RH.
 ```
 
 Use this:
 
 ```text
-The next analytic development target is to define C(q) rigorously and connect
-its stationary states to the zeta functional equation.
+The next analytic development target is to define the domain, regularity,
+functional calculus, and stationarity condition before comparing to zero data.
 ```
 
 ## Review Standard
@@ -79,4 +80,3 @@ of:
 - a theorem-level obligation,
 - an analytic development target,
 - or a reference to established classical zeta theory.
-
