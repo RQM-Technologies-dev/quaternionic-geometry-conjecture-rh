@@ -62,6 +62,25 @@ Avoid:
 - claims that quaternionic geometry generates zeta zeros.
 - claims that the Euler product converges normally on `Re(s)=1/2`.
 
+## Prize And Publication Boundary
+
+The Millennium Prize rules reinforce the same public standard: this repository
+is not a prize submission, a CMI-recognized proposed solution, or a substitute
+for peer-reviewed publication.
+
+If the program ever reaches a complete proof, the next external milestone is a
+serious manuscript suitable for a qualifying refereed mathematics outlet. Prize
+eligibility would require publication, at least two years of rigorous global
+mathematical scrutiny, general acceptance, and CMI review.
+
+Do not imply:
+
+- that a repository note is a submitted Millennium Prize solution;
+- that CMI has reviewed, recognized, or endorsed this work;
+- that a conjectural outline is eligible for prize consideration;
+- that repo-local diagnostics or internal review replace independent peer
+  review.
+
 ## Replacement Patterns
 
 Use this:
